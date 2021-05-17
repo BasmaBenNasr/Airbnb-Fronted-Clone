@@ -8,8 +8,8 @@ function DashboardMap({properties}) {
       id: 'google-map-script',
       googleMapsApiKey: process.env.googlePlacesApi
     })
-     
-  
+
+    console.log(location)
     const containerStyle = {
       width: '100%',
       height: '100vh'
